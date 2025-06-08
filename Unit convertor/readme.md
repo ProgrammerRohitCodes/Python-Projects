@@ -1,12 +1,12 @@
 # Unit Converter App (Tkinter)
 
-Ye ek simple desktop application hai jo Python ke Tkinter library ka use karke banaya gaya hai. Is app ka purpose different units ke beech conversion karna hai, jaise time, temperature, area, length, mass, data, speed, aur currency.
+This is a simple application built using Python’s Tkinter library. The app allows users to convert between various units such as time, temperature, area, length, mass, data, speed, and currency.
 
 ---
 
 ## Features
 
-- Multiple unit conversion categories:
+- Supports multiple unit conversion categories:
   - Time (seconds to minutes)
   - Temperature (Celsius to Fahrenheit)
   - Area (square centimeters to square meters)
@@ -16,24 +16,24 @@ Ye ek simple desktop application hai jo Python ke Tkinter library ka use karke b
   - Speed (km/hr to m/s)
   - Currency (Rupees to Yen - approximate)
 - User-friendly interface with clear labels and input placeholders
-- Error handling for invalid inputs
-- Colorful buttons and labels for better user experience
+- Handles invalid inputs gracefully by showing error messages
+- Colorful buttons and organized layout for better user experience
 
 ---
 
 ## Requirements
 
 - Python 3.x
-- Tkinter (usually Python ke sath by default installed hota hai)
+- Tkinter (usually comes pre-installed with Python)
 
 ---
 
 ## How to Run
 
-1. Python install karo apne system mein.
-2. Is repository se `unit_converter.py` file download karo.
-3. Terminal ya command prompt kholo aur file wale folder mein jao.
-4. Run karo command:
+1. Make sure Python is installed on your system.
+2. Download the `unit_converter.py` file from this repository.
+3. Open your terminal or command prompt and navigate to the folder containing the file.
+4. Run the app using the command:
 
    ```bash
    python unit_converter.py
